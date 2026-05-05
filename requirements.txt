@@ -1,0 +1,22 @@
+# Displacement Functional - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+numpy>=1.20.0
+scipy>=1.7.0
+matplotlib>=3.4.0
+
+# Optional but recommended
+qutip>=4.6.0  # For extended quantum mechanics features
+jupyter>=1.0.0  # For interactive notebooks
+ipython>=7.0.0
+
+# Development dependencies
+pytest>=6.0.0  # For running tests
+pytest-cov>=2.0.0  # Coverage reports
+black>=21.0  # Code formatting
+flake8>=3.9.0  # Linting
+
+# Documentation
+sphinx>=4.0.0  # For building docs
+sphinx-rtd-theme>=0.5.0
